@@ -3,8 +3,18 @@ html {
   box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-
+body {
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
 
 
 
@@ -12,7 +22,6 @@ html {
 .header {
     position: fixed;
     z-index: 1;
-    height: 40px;
     width: 100%;
     background-color: darkgray;
 }
@@ -22,14 +31,13 @@ html {
 }
 
 .nav_bar {
-	position: fixed;
-    z-index: 1;
-    height: 40px;
+	display: inline;
     width: 100%;
 	background-color: darkgray;
 }
 
 .links {
+	display: inline;
 	background-color: darkgray;
 }
 
@@ -39,19 +47,28 @@ html {
 	background-color: darkgray;
 }
 
+.search {
+	display: inline;
+}
 
 .main_content {
 	background-color: white;
 	margin: 0 15%;
-	padding-top: 125px;
 }
 
 .everything {
 	background-color: blue;
 }
 
-
-
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
 
 
 
