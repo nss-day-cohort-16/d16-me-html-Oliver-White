@@ -1,0 +1,190 @@
+/*Main page*/
+body {
+	background-color: lightblue;
+	width: 100%;
+
+}
+
+
+#wrapper {
+	max-width: 978px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 5%;
+	background-color: white;
+}
+
+main {
+	width: 100%;
+}
+
+/*Nav*/
+.main-header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	background-color: darkgray;
+	text-align: center;
+	list-style: none;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+.navigation {
+	background-color: lightgray;
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	list-style: none;
+}
+
+.navigation ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 100%;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+/*Picture of me*/
+
+#author img {
+	display: block;
+	background-color: lightgray;
+	max-width: 100%;
+	margin: 0 auto;
+	border-radius: 50%;
+
+}
+
+
+/*Text of me*/
+
+
+/*NSS Logo*/
+
+#nss {
+	max-width: 25%;
+	width: 10%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+
+/*Family Photo*/
+
+#family {
+	max-width: 100%;
+	width: 25%;
+	margin: 0 auto;
+	display: block;
+	background-color: lightgray;
+	border-radius: 50%;
+}
+
+
+/*Bird Picture*/
+
+#bird {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	background-color: lightgray;
+	border-radius: 50%;
+}
+
+/*Nashville Picture*/
+
+#nashville-pic {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	display: block;
+	border-radius: 25%;
+	clear: both;
+}
+
+
+
+/*Links*/
+a {
+	text-decoration: none;
+}
+
+
+/*Footer*/
+
+.the-end {
+	font-size: .75em;
+	text-align: center;
+	padding-top: 50px;
+	color: gray;
+}
+
+.social {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+/*Skills and Languages*/
+.languages {
+	float: left;
+	width: 45%;
+}
+
+.languages li {
+	list-style: none;
+}
+
+.skills {
+	float: right;
+	width: 45%
+}
+
+.skills li {
+	list-style: none;
+}
+
+
+/*Main Page INFO*/
+
+#camp {
+	display: block;
+	float:left;
+	width: 45%;
+}
+
+#graduates {
+	display: block;
+	float: right;
+	width: 45%;
+}
+
+.contact {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: .95em;
+}
+
+.rules {
+	clear: both;
+	padding: 1px;
+	margin: 1px;
+}
+
