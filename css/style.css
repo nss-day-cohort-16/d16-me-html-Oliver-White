@@ -22,6 +22,30 @@ ul li {
   border-radius: 50%;
 }
 
+.me_picture {
+  margin: 0 auto;
+  width: 30%;
+  height: 30%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.nashville {
+  margin: 0 auto;
+  width: 30%;
+  height: 30%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.nss {
+  margin: 0 auto;
+  width: 30%;
+  height: 30%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
 .main_footer {
   text-align: center;
 }
